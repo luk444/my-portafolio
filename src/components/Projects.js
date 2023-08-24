@@ -1,8 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/img/BAXI.png";
+import projImg2 from "../assets/img/Escabia2.png";
+import projImg3 from "../assets/img/Furniture1.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,17 +11,17 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
+      title: "Empresa Calderas",
       description: "Design & Development",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
+      title: "Tienda de Alcohol",
       description: "Design & Development",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
+      title: "Tienda de Muebles",
       description: "Design & Development",
       imgUrl: projImg3,
     },

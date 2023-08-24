@@ -5,6 +5,7 @@ import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/github.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
 import { HashLink } from 'react-router-hash-link';
+import CVLuca from './CVLuca.pdf'
 import {
   BrowserRouter as Router
 } from "react-router-dom";
@@ -54,9 +55,17 @@ export const NavBar = () => {
                 <a href="https://github.com/luk444"><img src={navIcon2} alt="" /></a>
                 <a href="https://instagram.com/lucadaventura"><img src={navIcon3} alt="" /></a>
               </div>
-              <HashLink to='#connect'>
-                <button className="vvd"><span>Descargar CV</span></button>
-              </HashLink>
+              
+                <a
+                  className="vvd"
+                  href={CVLuca.pdf}
+                  download="CVLuca.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button><span>Descargar CV</span></button>
+                </a>
+            
             </span>
           </Navbar.Collapse>
         </Container>

@@ -400,11 +400,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
 }
 .Cert-bx {
-  background: #151515;
+  background: #5930b3;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
   margin-top: -40px;
+  height: 100%;
 }
 .Cert h2 {
 	font-size: 45px;
