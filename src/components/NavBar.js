@@ -5,7 +5,7 @@ import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/github.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
 import { HashLink } from 'react-router-hash-link';
-import CVLuca from './CVLuca.pdf'
+import { ID_CV } from "../data/curriculum.js";
 import {
   BrowserRouter as Router
 } from "react-router-dom";
@@ -58,14 +58,11 @@ export const NavBar = () => {
               
                 <a
                   className="vvd"
-                  href={CVLuca.pdf}
-                  download="CVLuca.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href={`https://drive.google.com/uc?export=download&id=${ID_CV}`}
+                  download
                 >
                   <button><span>Descargar CV</span></button>
                 </a>
-            
             </span>
           </Navbar.Collapse>
         </Container>

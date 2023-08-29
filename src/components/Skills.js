@@ -34,7 +34,7 @@ export const Skills = () => {
             <div className="row">
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
-                        <h2>Skills</h2>
+                        <h2>Habilidades</h2>
                         <p>Estas son mis habilidades y conocimientos que estuve reforzando en el tiempo.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
