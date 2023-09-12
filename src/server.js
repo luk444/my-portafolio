@@ -1,3 +1,5 @@
+require("dotenv").config(); // Agrega esto al comienzo de tu archivo
+
 const express = require("express");
 const router = express.Router();
 const cors = require("cors");
@@ -15,8 +17,8 @@ console.log(process.env.EMAIL_PASS);
 const contactEmail = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: "@gmail.com",
-    pass: ""
+    user: process.env.EMAIL_USER,
+    pass: process.env.EMAIL_PASS
   },
 });
 
